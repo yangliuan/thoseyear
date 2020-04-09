@@ -4,4 +4,4 @@
 2013年花费一月时间,从UI到建站,
 
 #### 软件架构
-IIS7.0 html css javascript asp-vbscript flash
+IIS7.0 html css javascript asp-vbscript flash kindEditor
