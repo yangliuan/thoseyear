@@ -1,0 +1,153 @@
+#container {
+	LINE-HEIGHT: 1.7em;
+	WIDTH: 916px;
+	HEIGHT: 480px;
+	OVERFLOW: hidden;
+	padding: 0px;
+	position: absolute;
+	margin: 0px;
+	left: 27px;
+	top: 34px;
+}
+#container-content {
+	height: 100%;
+	width: 100%;
+	background-image: url(../images/videolist-bg.png);
+	background-repeat: repeat;
+}
+
+UL#navi {
+	MARGIN: 0px 0px 15px; WIDTH: 690px; FLOAT: left; CLEAR: both
+}
+UL#navi LI.prev {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 50px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 9px
+}
+UL#navi LI.prev A {
+	WIDTH: 31px; DISPLAY: block; BACKGROUND: url(../img/prev_arrow.gif) no-repeat 0px 0px; HEIGHT: 30px
+}
+UL#navi LI.next {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 9px; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 20px
+}
+UL#navi LI.next A {
+	WIDTH: 31px; DISPLAY: block; BACKGROUND: url(../img/next_arrow.gif) no-repeat 0px 0px; HEIGHT: 30px
+}
+UL#navi LI A SPAN {
+	DISPLAY: none
+}
+DIV.info_box {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 1.5em; PADDING-LEFT: 0px; WIDTH: 196px; PADDING-RIGHT: 20px; FLOAT: left; FONT-SIZE: 105%; PADDING-TOP: 0px
+}
+#wrapper DIV.info_box P {
+	PADDING-TOP: 30px
+}
+#wrapper DIV.info_box IMG {
+	MARGIN: 0px 5px 0px 0px
+}
+DIV.first.info_box {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 12px; WIDTH: 225px; PADDING-RIGHT: 35px; PADDING-TOP: 0px
+}
+DIV.last.info_box {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#wrapper DIV.last.info_box P {
+	PADDING-TOP: 22px
+}
+#wrapper DIV.first.info_box P {
+	PADDING-TOP: 22px
+}
+#wrapper DIV.first.info_box A {
+	COLOR: #f05392
+}
+#wrapper DIV.info_box A:hover {
+	BORDER-BOTTOM: #f05392 1px solid; TEXT-DECORATION: none
+}
+#wrapper DIV.first.info_box A:hover {
+	BORDER-BOTTOM: #ade02c 1px solid
+}
+#sub_col {
+	WIDTH: 240px;
+	FLOAT: left;
+	OVERFLOW: hidden;
+	margin-top: 160px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 115px;
+	height: auto;
+	border: 1px dashed #7E7E7C;
+}
+#sub_col DIV {
+	DISPLAY: none;
+	font-family: "宋体";
+	font-size: 12px;
+	color: #272727;
+	line-height: 15px;
+}
+#sub_col H2 {
+	PADDING-BOTTOM: 10px;
+	LINE-HEIGHT: 1em;
+	PADDING-LEFT: 5px;
+	PADDING-RIGHT: 5px;
+	LETTER-SPACING: 2px;
+	COLOR: #272727;
+	FONT-SIZE: 14px;
+	FONT-WEIGHT: bold;
+	PADDING-TOP: 0px;
+	font-family: "微软雅黑";
+}
+#sub_col p {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#sub_col a {
+	text-decoration: none;
+	color: #66F;
+}
+#sub_col a:hover {
+	color: #069;
+	text-decoration: underline;
+}
+
+
+#main_col {
+	WIDTH: 420px;
+	FLOAT: right;
+	OVERFLOW: hidden;
+	padding: 0px;
+	margin-top: 60px;
+	margin-right: 45px;
+}
+#gallery {
+	WIDTH: 100%;
+	HEIGHT: 400px
+}
+.left {
+	FLOAT: left
+}
+.right {
+	FLOAT: right
+}
+IMG.left {
+	MARGIN: 0px 0px 10px 10px; FLOAT: left !important
+}
+IMG.right {
+	MARGIN: 0px 10px 10px 0px; FLOAT: right !important
+}
+IMG.center {
+	MARGIN: 0px auto 10px; DISPLAY: block; FLOAT: none !important
+}
+DIV.center {
+	MARGIN: 0px auto; DISPLAY: block; FLOAT: none !important
+}
+DIV.center IMG {
+	MARGIN: 0px
+}
+.aright {
+	TEXT-ALIGN: right
+}
+.acenter {
+	TEXT-ALIGN: center
+}
+DIV.hr_line {
+	LINE-HEIGHT: 0; MARGIN: 0px auto; DISPLAY: block; BACKGROUND: url(../img/dott.gif) repeat-x -1px -1px; HEIGHT: 20px; CLEAR: both; FONT-SIZE: 0px
+}

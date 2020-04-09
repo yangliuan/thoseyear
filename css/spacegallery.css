@@ -1,0 +1,11 @@
+.spacegallery {
+	POSITION: relative; OVERFLOW: hidden
+}
+.spacegallery IMG {
+	POSITION: absolute;
+	RIGHT: 0px;
+	border: 5px solid #FFF;
+}
+.spacegallery A {
+	Z-INDEX: 1000; POSITION: absolute; WIDTH: 100%; DISPLAY: block; BACKGROUND: url(images/blank.gif); HEIGHT: 100%; TOP: 0px; LEFT: 0px
+}

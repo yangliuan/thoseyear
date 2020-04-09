@@ -1,0 +1,276 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../images/body_bg.gif);
+	background-repeat: repeat;
+}
+
+#layout {
+	background-color: #000;
+	height: 768px;
+	width: 1046px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding: 0px;
+
+}
+#topbody {
+	padding: 0px;
+	height: 40px;
+	width: 980px;
+	margin-top: 0px;
+	margin-right: 33px;
+	margin-bottom: 0px;
+	margin-left: 33px;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 40px;
+	color: #FFF;
+	text-align: right;
+	word-spacing: 10px;
+}
+
+#mainbody {
+	background-color: #FFF;
+	padding: 0px;
+	height: 660px;
+	width: 980px;
+	margin-top: 0px;
+	margin-right: 33px;
+	margin-bottom: 0px;
+	margin-left: 33px;
+	position: relative;
+}
+/*首页部分开始---------------------------------------------------------*/
+#navd  {
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	border-bottom-width: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+}
+#logo {
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+	width: 200px;
+	float: left;
+}
+#link {
+	height: 100px;
+	line-height: 100px;
+	width: 780px;
+	float: left;
+	padding: 0px;
+	text-align: right;
+	word-spacing: 4px;
+}
+
+
+#banner  {
+	height: 320px;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	z-index: 0;
+}
+
+#ixcontent  {
+	height: 222px;
+	border-top-width: 8px;
+	border-top-style: solid;
+	border-top-color: #000;
+}
+#ix_rj_list  {
+	width: 360px;
+	height: 222px;
+	float: left;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+#ix_photo_list {
+	background-color: #EFEFEF;
+	height: 222px;
+	width: 360px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+#ix_aboutme {
+	float: left;
+	height: 222px;
+	width: 260px;
+	margin: 0px;
+	padding: 0px;
+}
+/*首页部分结束---------------------------------------------------*/
+
+/*aboutme页开始----------------------------------------------------*/
+#Nxn-me,#message-me {
+	margin: 0px;
+	padding: 0px;
+	height: 550px;
+	width: 740px;
+	background-image: url(../images/Nxn-black.png);
+	background-repeat: no-repeat;
+	position: relative;
+	float: left;
+	font-size: 12px;
+}
+
+#Hygq,#contact-me {
+	width: 230px;
+	position: relative;
+	height: 550px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	border-left-width: 10px;
+	border-left-style: solid;
+	border-left-color: #000;
+}
+/*aboutme页结束----------------------------------------------------------*/
+
+/*myphoto页部分开始====================================================*/
+#photo-class {
+	margin: 0px;
+	padding: 0px;
+	height: 550px;
+	width: 980px;
+	background-image: url(../images/photo-class2.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	clear: left;
+}
+/*myphoto页结束==========================================================*/
+
+/*photowall页开始----------------------------------------------------------*/
+#Nxnphoto-list {
+	margin: 0px;
+	padding: 0px;
+	height: 550px;
+	width: 980px;
+	position: relative;
+}
+/*mydiary页开始---------------------------------------------------------*/
+#diarylist {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 550px;
+	width: 740px;
+	position: relative;
+	background-image: url(../images/diarylist.jpg);
+	background-repeat: no-repeat;
+}
+
+#readtop {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 550px;
+	width: 230px;
+	border-left-width: 10px;
+	border-left-style: solid;
+	border-left-color: #000;
+}
+#readdiary{
+	padding: 0px;
+	width: 980px;
+	height: 550px;
+	position: relative;
+	margin: 0px;
+}
+#video-list {
+	margin: 0px;
+	padding: 0px;
+	height: 550px;
+	width: 980px;
+	background-image: url(../images/video-list-bg.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+}
+#video-class {
+	margin: 0px;
+	padding: 0px;
+	height: 550px;
+	width: 980px;
+	position: relative;
+	background-image: url(../images/video-class.jpg);
+	background-repeat: no-repeat;
+}
+#video-list-content ,#video-class-content{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 30px;
+	top: 35px;
+	height: 480px;
+	width: 920px;
+	background-image: url(../images/videolist-bg.png);
+	background-repeat: repeat;
+}
+#page {
+	position: absolute;
+	height: 35px;
+	width: 920px;
+	left: 30px;
+	bottom: 0px;
+	text-align: center;
+	margin: 0px;
+	right: 30px;
+	padding: 0px;
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 35px;
+}
+#page table {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	line-height: 35px;
+	width: 95%;
+}
+#page table a {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	line-height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+/*readdiary页---------------------------------------------------------*/
+
+
+
+
+
+/*------------------------------------------------------*/
+#footbody {
+	padding: 0px;
+	height: 68px;
+	width: 980px;
+	margin-top: 0px;
+	margin-right: 33px;
+	margin-bottom: 0px;
+	margin-left: 33px;
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FFF;
+	line-height: 34px;
+}
